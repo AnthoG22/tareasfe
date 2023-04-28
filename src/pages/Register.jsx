@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import { FaUser } from 'react-icons/fa'
 import { register , reset } from '../features/auth/authSlice'
-import { Toast } from 'bootstrap'
 import Spinner from '../components/Spinner'
 
 const Register = () => {
